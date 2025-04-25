@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <Logo color="light" size="lg" />
             <span className={`mt-4 pt-4 text-lg font-bold text-white`}>
-          Cynot
+          CYNOT
           </span>
             <p className="mt-4 text-neutral-300 text-sm">
               Empowering innovations, crafting journeys, and building premium living spaces with a commitment to excellence and customer satisfaction.

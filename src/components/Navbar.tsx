@@ -57,7 +57,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
         <Link to="/" className="flex items-center z-10" onClick={closeMenus}>
           <Logo color={scrolled || isOpen ? 'dark' : 'light'} />
           <span className={`ml-2 text-lg font-bold ${scrolled || isOpen ? "text-black" : "text-white"}`}>
-          Cynot
+            CYNOT
           </span>
         </Link>
         

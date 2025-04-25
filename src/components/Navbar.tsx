@@ -208,7 +208,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
           aria-label={isOpen ? 'Close menu' : 'Open menu'}
         >
           {isOpen ? (
-            <X className={`h-6 w-6 ${scrolled ? 'text-neutral-800' : 'text-white'}`} />
+            <X className={`h-6 w-6 ${scrolled ? 'text-neutral-800' : 'text-black'}`} />
           ) : (
             <Menu className={`h-6 w-6 ${scrolled ? 'text-neutral-800' : 'text-white'}`} />
           )}

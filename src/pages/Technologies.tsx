@@ -71,15 +71,15 @@ const Technologies = () => {
                   <p className="text-sm text-neutral-600">Projects Delivered</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">95%</p>
+                  <p className="text-2xl font-bold text-primary-600">99%</p>
                   <p className="text-sm text-neutral-600">Client Satisfaction</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">30+</p>
+                  <p className="text-2xl font-bold text-primary-600">10+</p>
                   <p className="text-sm text-neutral-600">Tech Experts</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">12+</p>
+                  <p className="text-2xl font-bold text-primary-600">5+</p>
                   <p className="text-sm text-neutral-600">Years of Experience</p>
                 </div>
               </div>

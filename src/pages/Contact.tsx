@@ -130,9 +130,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-2">Our Location</h3>
                       <p className="text-neutral-600">
-                        123 Business Avenue, <br />
-                        Corporate Park, <br />
-                        New York, NY 10001
+                      Shah Road, Chalakudy<br />
+                      Trissur, Kerala <br />
+                      India, 680308
                       </p>
                     </div>
                   </div>
@@ -143,11 +143,11 @@ const Contact = () => {
                       <h3 className="font-semibold mb-2">Email Us</h3>
                       <p className="text-neutral-600 mb-1">
                         <span className="font-medium">General Inquiries:</span> <br />
-                        <a href="mailto:info@cynot.com" className="text-primary-600 hover:underline">info@cynot.com</a>
+                        <a href="mailto:info@cynot.in" className="text-primary-600 hover:underline">info@cynot.in</a>
                       </p>
                       <p className="text-neutral-600 mb-1">
                         <span className="font-medium">Support:</span> <br />
-                        <a href="mailto:support@cynot.com" className="text-primary-600 hover:underline">support@cynot.com</a>
+                        <a href="mailto:help@cynot.in" className="text-primary-600 hover:underline">help@cynot.in</a>
                       </p>
                     </div>
                   </div>
@@ -158,7 +158,7 @@ const Contact = () => {
                       <h3 className="font-semibold mb-2">Call Us</h3>
                       <p className="text-neutral-600 mb-1">
                         <span className="font-medium">Main Office:</span> <br />
-                        <a href="tel:+12345678900" className="text-primary-600 hover:underline">+1 (234) 567-8900</a>
+                        <a href="tel:+12345678900" className="text-primary-600 hover:underline">+91 9020 555 800</a>
                       </p>
                       <p className="text-neutral-600">
                         <span className="font-medium">Customer Support:</span> <br />
@@ -444,7 +444,7 @@ const Contact = () => {
             <h2 className="text-2xl font-bold mb-6">Find Us</h2>
             <div className="h-96 w-full rounded-lg overflow-hidden">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830894612!2d-74.11976383964464!3d40.69766374873451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1681736395840!5m2!1sen!2s" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.206628217476!2d76.36050317538282!3d10.244912489873302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080156f6e63bc1%3A0x9124cb6803a901ef!2s69V7%2BX68%2C%20Mangalassery%20-%20Chirangara%20Rd%2C%20Kizhakkummuri%2C%20Kerala%20680308!5e0!3m2!1sen!2sin!4v1745603561215!5m2!1sen!2sin"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

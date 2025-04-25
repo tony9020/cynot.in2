@@ -56,14 +56,14 @@ const About = () => {
               <span className="text-primary-600 font-semibold text-sm uppercase tracking-wider">Who We Are</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">A Vision-Driven Conglomerate</h2>
               <p className="text-neutral-700 mb-4">
-                Founded in 2012, Cynot began as a small IT consultancy and has since grown into a diversified company operating in three distinct sectors. Our journey has been guided by a commitment to innovation, quality, and customer satisfaction.
+                Vision of two graduates in 2020 later led to foundation by 2024, Cynot began as a small IT consultancy and has since grown into a diversified company operating in three distinct sectors. Our journey has been guided by a commitment to innovation, quality, and customer satisfaction.
               </p>
               <p className="text-neutral-700 mb-6">
-                Today, we employ over 200 professionals across our three divisions: Cynot Technologies, Cynot Homes, and Cynot Tours. Each division operates with autonomy while sharing the core values and vision that define our brand.
+                Today, we thrive with over 50 professionals across our three divisions: Cynot Technologies, Cynot Homes, and Cynot Tours. Each division operates with autonomy while sharing the core values and vision that define our brand.
               </p>
               <div className="flex flex-wrap gap-6">
                 <div>
-                  <p className="text-3xl font-bold text-primary-600">12+</p>
+                  <p className="text-3xl font-bold text-primary-600">5+</p>
                   <p className="text-sm text-neutral-600">Years of Experience</p>
                 </div>
                 <div>
@@ -71,7 +71,7 @@ const About = () => {
                   <p className="text-sm text-neutral-600">Projects Delivered</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-primary-600">50+</p>
+                  <p className="text-3xl font-bold text-primary-600">10+</p>
                   <p className="text-sm text-neutral-600">Team Members</p>
                 </div>
                 <div>
@@ -178,9 +178,9 @@ const About = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12">
-                    <h3 className="text-xl font-semibold text-neutral-900">2012 - The Beginning</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900">2020 - The Beginning</h3>
                     <p className="mt-2 text-neutral-700">
-                      Founded as a small IT consultancy with just 5 team members, focusing on custom software development.
+                      Founded as a small IT consultancy with just 2 team members, focusing on custom software development.
                     </p>
                   </div>
                   <div className="md:pl-12">
@@ -206,7 +206,7 @@ const About = () => {
                     />
                   </div>
                   <div className="md:pl-12 md:order-2 order-1">
-                    <h3 className="text-xl font-semibold text-neutral-900">2015 - Expansion to Real Estate</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900">2021 - Expansion to Real Estate</h3>
                     <p className="mt-2 text-neutral-700">
                       Launched Cynot Homes, our real estate division, focusing on premium residential properties and smart home solutions.
                     </p>
@@ -220,7 +220,7 @@ const About = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12">
-                    <h3 className="text-xl font-semibold text-neutral-900">2018 - Entry into Travel Industry</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900">2022 - Entry into Travel Industry</h3>
                     <p className="mt-2 text-neutral-700">
                       Established Cynot Tours to offer curated travel experiences, combining our technological expertise with a passion for exploration.
                     </p>
@@ -248,7 +248,7 @@ const About = () => {
                     />
                   </div>
                   <div className="md:pl-12 md:order-2 order-1">
-                    <h3 className="text-xl font-semibold text-neutral-900">2022 - Global Expansion</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900">2024 - Global Expansion</h3>
                     <p className="mt-2 text-neutral-700">
                       Expanded operations to international markets, opening offices in Europe and Asia to serve our growing global client base.
                     </p>
@@ -357,18 +357,18 @@ const About = () => {
             </p>
           </SectionTitle>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-12">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="/IMG_20230722_211319448.jpg" 
                 alt="CEO Portrait" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-1">Robert Chen</h3>
-                <p className="text-primary-600 mb-4">Chief Executive Officer</p>
+                <h3 className="text-xl font-semibold mb-1">Tony Christopher</h3>
+                <p className="text-primary-600 mb-4">Director, Operations</p>
                 <p className="text-neutral-700 mb-4">
-                  With over 20 years of experience in technology and business leadership, Robert drives our strategic vision and corporate growth.
+                  Product professional with 6+ years of experience crafting award-winning digital products for startups and enterprises across 6 countries
                 </p>
                 <div className="flex space-x-3">
                   <a href="#" className="text-neutral-500 hover:text-primary-600 transition-colors duration-200">
@@ -392,16 +392,15 @@ const About = () => {
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="/1649219836919.jpeg" 
                 alt="CTO Portrait" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-1">Sarah Miller</h3>
-                <p className="text-primary-600 mb-4">Chief Technology Officer</p>
+                <h3 className="text-xl font-semibold mb-1">Abhinav Jaiju</h3>
+                <p className="text-primary-600 mb-4">Director, Technology</p>
                 <p className="text-neutral-700 mb-4">
-                  Leading our technology innovation, Sarah brings expertise in emerging technologies and a passion for developing transformative solutions.
-                </p>
+                Frontend Developer specializing in Next.js and a Marketing Analyst with a passion for building responsive and scalable web applications while optimizing user experience.                </p>
                 <div className="flex space-x-3">
                   <a href="#" className="text-neutral-500 hover:text-primary-600 transition-colors duration-200">
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -422,7 +421,7 @@ const About = () => {
               </div>
             </div>
             
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            {/* <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <img 
                 src="https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="COO Portrait" 
@@ -452,7 +451,7 @@ const About = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

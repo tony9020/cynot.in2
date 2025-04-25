@@ -185,10 +185,10 @@ const Homes = () => {
                 <span className="bg-neutral-100 text-neutral-800 text-xs px-2 py-1 rounded-full ml-2">New</span>
               </div>
               <h3 className="text-xl font-semibold mb-1">Oceanview Residences</h3>
-              <p className="text-primary-600 font-bold mb-3">$850,000 - $1.2M</p>
+              <p className="text-primary-600 font-bold mb-3">₹8,650K  - ₹1.2Cr</p>
               <div className="flex items-center text-sm text-neutral-600 mb-3">
                 <MapPin size={16} className="mr-1" />
-                <span>Miami, Florida</span>
+                <span>Mumbai, Maharashtra</span>
               </div>
               <p className="text-neutral-700 mb-4">
                 Luxury waterfront apartments with breathtaking ocean views, featuring smart home technology and resort-style amenities.
@@ -225,10 +225,10 @@ const Homes = () => {
                 <span className="bg-primary-600 text-white text-xs px-2 py-1 rounded-full">Featured</span>
               </div>
               <h3 className="text-xl font-semibold mb-1">Parkside Villas</h3>
-              <p className="text-primary-600 font-bold mb-3">$750,000 - $950,000</p>
+              <p className="text-primary-600 font-bold mb-3">₹7,550K - ₹1Cr</p>
               <div className="flex items-center text-sm text-neutral-600 mb-3">
                 <MapPin size={16} className="mr-1" />
-                <span>Austin, Texas</span>
+                <span>Kochi, kerala</span>
               </div>
               <p className="text-neutral-700 mb-4">
                 Elegant family homes adjacent to a beautiful park, combining modern design with eco-friendly features.
@@ -266,10 +266,10 @@ const Homes = () => {
                 <span className="bg-neutral-100 text-neutral-800 text-xs px-2 py-1 rounded-full ml-2">Last Units</span>
               </div>
               <h3 className="text-xl font-semibold mb-1">Urban Heights</h3>
-              <p className="text-primary-600 font-bold mb-3">$425,000 - $650,000</p>
+              <p className="text-primary-600 font-bold mb-3">₹8,650K - ₹9,800K</p>
               <div className="flex items-center text-sm text-neutral-600 mb-3">
                 <MapPin size={16} className="mr-1" />
-                <span>Seattle, Washington</span>
+                <span>Bangalore, Karnataka</span>
               </div>
               <p className="text-neutral-700 mb-4">
                 Modern downtown condos with stunning city views, designed for contemporary urban living.

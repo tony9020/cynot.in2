@@ -148,21 +148,21 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="text-primary-400 mr-3 mt-1 flex-shrink-0" />
                 <span className="text-neutral-300">
-                  123 Business Avenue, <br />
-                  Corporate Park, <br />
-                  New York, NY 10001
+                  Shah Road, Chalakudy<br />
+                  Trissur, Kerala <br />
+                  India, 680308
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-primary-400 mr-3 flex-shrink-0" />
                 <a href="tel:+12345678900" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
-                  +1 (234) 567-8900
+                  +91 9020 555 800
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-primary-400 mr-3 flex-shrink-0" />
-                <a href="mailto:info@cynot.com" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
-                  info@cynot.com
+                <a href="mailto:help@cynot.in" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
+                  help@cynot.in
                 </a>
               </li>
             </ul>

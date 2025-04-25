@@ -67,11 +67,11 @@ const Homes = () => {
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">50+</p>
+                  <p className="text-2xl font-bold text-primary-600">10+</p>
                   <p className="text-sm text-neutral-600">Properties Developed</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">98%</p>
+                  <p className="text-2xl font-bold text-primary-600">99%</p>
                   <p className="text-sm text-neutral-600">Client Satisfaction</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">

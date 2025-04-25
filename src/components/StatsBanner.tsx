@@ -10,9 +10,9 @@ interface Stat {
 
 const stats: Stat[] = [
   { id: 1, value: 200, suffix: '+', label: 'Projects Delivered' },
-  { id: 2, value: 12, suffix: '+', label: 'Years of Experience' },
-  { id: 3, value: 50, suffix: '+', label: 'Team Members' },
-  { id: 4, value: 98, suffix: '%', label: 'Client Satisfaction' },
+  { id: 2, value: 5, suffix: '+', label: 'Years of Experience' },
+  { id: 3, value: 10, suffix: '+', label: 'Team Members' },
+  { id: 4, value: 99, suffix: '%', label: 'Client Satisfaction' },
 ];
 
 const StatsBanner = () => {

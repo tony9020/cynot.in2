@@ -54,8 +54,11 @@ const Navbar = ({ scrolled }: NavbarProps) => {
     >
       <div className="container flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex-shrink-0 z-10" onClick={closeMenus}>
+        <Link to="/" className="flex items-center z-10" onClick={closeMenus}>
           <Logo color={scrolled || isOpen ? 'dark' : 'light'} />
+          <span className={`ml-2 text-lg font-bold ${scrolled || isOpen ? "text-black" : "text-white"}`}>
+        Cynot
+      </span>
         </Link>
         
         {/* Desktop Navigation */}

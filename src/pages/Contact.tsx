@@ -161,8 +161,8 @@ const Contact = () => {
                         <a href="tel:+12345678900" className="text-primary-600 hover:underline">+91 9020 555 800</a>
                       </p>
                       <p className="text-neutral-600">
-                        <span className="font-medium">Customer Support:</span> <br />
-                        <a href="tel:+12345678901" className="text-primary-600 hover:underline">+1 (234) 567-8901</a>
+                        <span className="font-medium">Technical Support:</span> <br />
+                        <a href="tel:+12345678901" className="text-primary-600 hover:underline">+91 8589 010 166</a>
                       </p>
                     </div>
                   </div>

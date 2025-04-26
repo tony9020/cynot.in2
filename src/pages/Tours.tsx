@@ -163,7 +163,7 @@ const Tours = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <Card
-              image="https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              image="https://images.pexels.com/photos/1829980/pexels-photo-1829980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               className="group"
               hoverEffect={true}
             >
@@ -204,7 +204,7 @@ const Tours = () => {
             </Card>
 
             <Card
-              image="https://images.pexels.com/photos/3214959/pexels-photo-3214959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              image="https://images.pexels.com/photos/2024510/pexels-photo-2024510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               className="group"
               hoverEffect={true}
             >

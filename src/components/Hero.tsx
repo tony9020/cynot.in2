@@ -103,7 +103,7 @@ const Hero = ({
           {subtitle && (
             <span 
               className={`text-primary-400 font-medium uppercase tracking-wider text-sm md:text-base mb-3 ${textAnimation}`}
-              style={{ transitionDelay: '100ms' }}
+              style={{ transitionDelay: '150ms' }}
             >
               {subtitle}
             </span>
@@ -111,7 +111,7 @@ const Hero = ({
           
           <h1 
             className={`text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 ${textAnimation}`}
-            style={{ transitionDelay: '200ms' }}
+            style={{ transitionDelay: '250ms' }}
           >
             {title}
           </h1>
@@ -119,7 +119,7 @@ const Hero = ({
           {description && (
             <p 
               className={`text-neutral-300 text-lg md:text-xl mb-8 ${textAnimation}`}
-              style={{ transitionDelay: '300ms' }}
+              style={{ transitionDelay: '350ms' }}
             >
               {description}
             </p>
@@ -127,7 +127,7 @@ const Hero = ({
           
           <div 
             className={`flex flex-wrap gap-4 ${alignment === 'center' ? 'justify-center' : ''} ${textAnimation}`}
-            style={{ transitionDelay: '400ms' }}
+            style={{ transitionDelay: '450ms' }}
           >
             {primaryAction && (
               <Button 

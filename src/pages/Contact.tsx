@@ -103,7 +103,7 @@ const Contact = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Contact Us</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Contact Us</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Get in Touch</h1>
             <p className="text-xl text-neutral-300">
               Have questions or need more information? Our team is here to help. Reach out to us through the contact form or using our direct contact information.
@@ -128,7 +128,7 @@ const Contact = () => {
                   <div className="flex items-start">
                     <MapPin className="text-primary-600 mr-4 mt-1" size={24} />
                     <div>
-                      <h3 className="font-semibold mb-2">Our Location</h3>
+                      <h3 className="font-semibold text-xl mb-2">Our Location</h3>
                       <p className="text-neutral-600">
                       Shah Road, Chalakudy<br />
                       Trissur, Kerala <br />
@@ -140,7 +140,7 @@ const Contact = () => {
                   <div className="flex items-start">
                     <Mail className="text-primary-600 mr-4 mt-1" size={24} />
                     <div>
-                      <h3 className="font-semibold mb-2">Email Us</h3>
+                      <h3 className="font-semibold text-xl mb-2">Email Us</h3>
                       <p className="text-neutral-600 mb-1">
                         <span className="font-medium">General Inquiries:</span> <br />
                         <a href="mailto:info@cynot.in" className="text-primary-600 hover:underline">info@cynot.in</a>
@@ -155,27 +155,27 @@ const Contact = () => {
                   <div className="flex items-start">
                     <Phone className="text-primary-600 mr-4 mt-1" size={24} />
                     <div>
-                      <h3 className="font-semibold mb-2">Call Us</h3>
+                      <h3 className="font-semibold text-xl mb-2">Call Us</h3>
                       <p className="text-neutral-600 mb-1">
                         <span className="font-medium">Main Office:</span> <br />
-                        <a href="tel:+12345678900" className="text-primary-600 hover:underline">+91 9020 555 800</a>
+                        <a href="tel:+91 9020 555 800" className="text-primary-600 hover:underline">+91 9020 555 800</a>
                       </p>
                       <p className="text-neutral-600">
                         <span className="font-medium">Technical Support:</span> <br />
-                        <a href="tel:+12345678901" className="text-primary-600 hover:underline">+91 8589 010 166</a>
+                        <a href="tel:+91 8589 010 166" className="text-primary-600 hover:underline">+91 8589 010 166</a>
                       </p>
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-8">
-                  <h3 className="font-semibold mb-3">Business Hours</h3>
-                  <p className="text-neutral-600 mb-2">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p className="text-neutral-600">Saturday - Sunday: Closed</p>
+                  <h3 className="font-semibold text-xl mb-3">Business Hours</h3>
+                  <p className="text-neutral-600 mb-2">Monday - Friday: 9:00 AM - 8:00 PM</p>
+                  <p className="text-neutral-600">Saturday - Sunday: Partially Closed</p>
                 </div>
                 
                 <div className="mt-8">
-                  <h3 className="font-semibold mb-3">Connect With Us</h3>
+                  <h3 className="font-semibold text-xl mb-3">Connect With Us</h3>
                   <div className="flex space-x-4">
                     <a 
                       href="https://facebook.com" 
@@ -200,7 +200,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://linkedin.com" 
+                      href="https://linkedin.com/cynot.in" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="bg-neutral-200 hover:bg-primary-600 hover:text-white transition-colors duration-300 p-2 rounded-full"
@@ -211,7 +211,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a 
-                      href="https://instagram.com" 
+                      href="https://instagram.com/cynot.in" 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="bg-neutral-200 hover:bg-primary-600 hover:text-white transition-colors duration-300 p-2 rounded-full"

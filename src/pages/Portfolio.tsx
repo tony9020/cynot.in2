@@ -88,7 +88,7 @@ const projects: Project[] = [
     category: 'tours',
     image: 'https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     description: 'Thrilling 8-day adventure combining rainforest exploration, wildlife encounters, and coastal relaxation in Costa Rica\'s diverse ecosystems.',
-    tags: ['Adventure', 'Nature', 'Central America'],
+    tags: ['Adventure', 'Nature', 'Eco-Tourism'],
     link: '/portfolio/costa-rica-adventure',
   },
   {
@@ -135,7 +135,7 @@ const Portfolio = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Our Portfolio</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Our Portfolio</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Our Work Across Divisions</h1>
             <p className="text-xl text-neutral-300">
               Explore our diverse portfolio of projects across technology, real estate, and travel, showcasing our commitment to excellence and innovation.

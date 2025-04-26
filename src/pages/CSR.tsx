@@ -35,7 +35,7 @@ const CSR = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Corporate Social Responsibility</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Corporate Social Responsibility</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Our Commitment to Society</h1>
             <p className="text-xl text-neutral-300">
               At Cynot, we believe in giving back to communities and making a positive impact on society and the environment through our CSR initiatives.

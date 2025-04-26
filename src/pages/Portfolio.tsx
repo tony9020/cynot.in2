@@ -32,7 +32,7 @@ const projects: Project[] = [
     id: 2,
     title: 'Healthcare Mobile App',
     category: 'technologies',
-    image: 'https://images.pexels.com/photos/7148384/pexels-photo-7148384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://images.pexels.com/photos/7828328/pexels-photo-7828328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     description: 'Patient engagement app for a leading healthcare provider, improving patient satisfaction scores by 25% while streamlining appointment management and care communications.',
     tags: ['Mobile App', 'Healthcare', 'UX Design'],
     link: '/portfolio/healthcare-app',

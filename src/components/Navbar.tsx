@@ -127,6 +127,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
                 ${servicesOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none'}
               `}
               onMouseLeave={() => setServicesOpen(false)}
+              onClick={toggleServices}
             >
               <div className="py-2 rounded-md bg-white shadow-xs">
                 <NavLink

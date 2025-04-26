@@ -185,7 +185,7 @@ const About = () => {
                   </div>
                   <div className="md:pl-12">
                     <img 
-                      src="https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                      src="https://images.pexels.com/photos/9626352/pexels-photo-9626352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                       alt="Cynot Founding" 
                       className="rounded-lg shadow-md"
                     />

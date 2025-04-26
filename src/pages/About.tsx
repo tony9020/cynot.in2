@@ -59,7 +59,7 @@ const About = () => {
                 Vision of two graduates in 2020 later led to foundation by 2024, Cynot began as a small IT consultancy and has since grown into a diversified company operating in three distinct sectors. Our journey has been guided by a commitment to innovation, quality, and customer satisfaction.
               </p>
               <p className="text-neutral-700 mb-6">
-                Today, we thrive with over 50 professionals across our three divisions: Cynot Technologies, Cynot Homes, and Cynot Tours. Each division operates with autonomy while sharing the core values and vision that define our brand.
+                Today, we thrive with over 10 professionals across our three divisions: Cynot Technologies, Cynot Homes, and Cynot Tours. Each division operates with autonomy while sharing the core values and vision that define our brand.
               </p>
               <div className="flex flex-wrap justify-between gap-6">
                 <div>
@@ -168,16 +168,16 @@ const About = () => {
 
           <div className="relative mt-12">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full md:w-1 w-[2px] md:bg-primary-100 bg-primary-200 blur-[2px] md:blur-none"></div>
+            <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 h-full md:w-1 w-[2px] bg-primary-100"></div>
             
             {/* Timeline Items */}
             <div className="space-y-12">
               <div className="relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
+                <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 md:-translate-y-2 translate-y-0 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
                   <Clock size={16} />
                 </div>
-                <div className="pt-[2rem] md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="md:text-right md:pr-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="md:text-right md:pr-12 pl-[3rem] md:pl-0">
                     <h3 className="text-xl font-semibold text-neutral-900">2020 - The Beginning</h3>
                     <p className="mt-2 text-neutral-700">
                       Founded as a small IT consultancy with just 2 team members, focusing on custom software development.
@@ -194,10 +194,10 @@ const About = () => {
               </div>
               
               <div className="relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
-                  <Clock size={16} />
+              <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 md:-translate-y-2 -translate-y-0 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
+                <Clock size={16} />
                 </div>
-                <div className="pt-[2rem] md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12 md:order-1 order-2">
                     <img 
                       src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -205,7 +205,7 @@ const About = () => {
                       className="rounded-lg shadow-md"
                     />
                   </div>
-                  <div className="md:pl-12 md:order-2 order-1">
+                  <div className="md:pl-12 md:order-2 order-1 pl-[3rem]">
                     <h3 className="text-xl font-semibold text-neutral-900">2021 - Expansion to Real Estate</h3>
                     <p className="mt-2 text-neutral-700">
                       Launched Cynot Homes, our real estate division, focusing on premium residential properties and smart home solutions.
@@ -215,11 +215,11 @@ const About = () => {
               </div>
               
               <div className="relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
-                  <Clock size={16} />
+              <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 md:-translate-y-2 -translate-y-0 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
+                <Clock size={16} />
                 </div>
-                <div className="pt-[2rem] md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="md:text-right md:pr-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="md:text-right md:pr-12 pl-[3rem] md:pl-0">
                     <h3 className="text-xl font-semibold text-neutral-900">2022 - Entry into Travel Industry</h3>
                     <p className="mt-2 text-neutral-700">
                       Established Cynot Tours to offer curated travel experiences, combining our technological expertise with a passion for exploration.
@@ -236,10 +236,10 @@ const About = () => {
               </div>
               
               <div className="relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
-                  <Clock size={16} />
+              <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 md:-translate-y-2 -translate-y-0 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
+                <Clock size={16} />
                 </div>
-                <div className="pt-[2rem] md:pt-0 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="md:text-right md:pr-12 md:order-1 order-2">
                     <img 
                       src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -247,7 +247,7 @@ const About = () => {
                       className="rounded-lg shadow-md"
                     />
                   </div>
-                  <div className="md:pl-12 md:order-2 order-1">
+                  <div className="md:pl-12 md:order-2 order-1 pl-[3rem]">
                     <h3 className="text-xl font-semibold text-neutral-900">2024 - Global Expansion</h3>
                     <p className="mt-2 text-neutral-700">
                       Expanded operations to international markets, opening offices in Europe and Asia to serve our growing global client base.
@@ -257,11 +257,11 @@ const About = () => {
               </div>
               
               <div className="relative">
-                <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-4 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
-                  <Clock size={16} />
+              <div className="absolute md:left-1/2 left-[1rem] transform -translate-x-1/2 md:-translate-y-2 -translate-y-0 w-8 h-8 rounded-full bg-primary-600 text-white flex items-center justify-center">
+                <Clock size={16} />
                 </div>
-                <div className="pt-[2rem] md:pt-0  grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="md:text-right md:pr-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="md:text-right md:pr-12 pl-[3rem] md:pl-0">
                     <h3 className="text-xl font-semibold text-neutral-900">Today & Beyond</h3>
                     <p className="mt-2 text-neutral-700">
                       Continuing to innovate and grow across all three divisions, with a focus on sustainability, digital transformation, and exceptional customer experiences.

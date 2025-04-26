@@ -59,11 +59,11 @@ const CSR = () => {
               </p>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">₹1.2L+</p>
+                  <p className="text-2xl font-bold text-primary-600">₹20L+</p>
                   <p className="text-sm text-neutral-600">Charitable Donations</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">3000+</p>
+                  <p className="text-2xl font-bold text-primary-600">1000+</p>
                   <p className="text-sm text-neutral-600">Volunteer Hours</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
@@ -71,7 +71,7 @@ const CSR = () => {
                   <p className="text-sm text-neutral-600">Community Partners</p>
                 </div>
                 <div className="bg-neutral-50 p-4 rounded-lg">
-                  <p className="text-2xl font-bold text-primary-600">5000+</p>
+                  <p className="text-2xl font-bold text-primary-600">500+</p>
                   <p className="text-sm text-neutral-600">Lives Impacted</p>
                 </div>
               </div>
@@ -165,7 +165,7 @@ const CSR = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <Card
-              image="https://images.pexels.com/photos/3698534/pexels-photo-3698534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              image="https://images.pexels.com/photos/31779225/pexels-photo-31779225/free-photo-of-historic-vietnamese-pagoda-roof-in-ninh-binh.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               title="Green Building Initiative"
               content="Our commitment to sustainable construction practices has resulted in 100% of our new residential developments achieving green building certification, reducing environmental impact while creating healthier living spaces."
               hoverEffect={true}
@@ -209,7 +209,7 @@ const CSR = () => {
 
           <div className="mt-12">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold mb-6 text-center">2023 Impact Highlights</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">2024 Impact Highlights</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
@@ -220,7 +220,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">30% Reduction in Carbon Footprint</p>
+                        <p className="font-medium">10% Reduction in Carbon Footprint</p>
                         <p className="text-sm text-neutral-600">Across all operations compared to 2021 baseline</p>
                       </div>
                     </li>
@@ -229,7 +229,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">5,000 Trees Planted</p>
+                        <p className="font-medium">1,000 Trees Planted</p>
                         <p className="text-sm text-neutral-600">Through our reforestation partnership program</p>
                       </div>
                     </li>
@@ -238,7 +238,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">45% Waste Reduction</p>
+                        <p className="font-medium">35% Waste Reduction</p>
                         <p className="text-sm text-neutral-600">Through improved recycling and circular economy practices</p>
                       </div>
                     </li>
@@ -253,7 +253,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">₹500K in Charitable Donations</p>
+                        <p className="font-medium">₹50K in Charitable Donations</p>
                         <p className="text-sm text-neutral-600">Supporting community development and education initiatives</p>
                       </div>
                     </li>
@@ -262,7 +262,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">1,200 Volunteer Hours</p>
+                        <p className="font-medium">600+ Volunteer Hours</p>
                         <p className="text-sm text-neutral-600">Contributed by our employees to community service</p>
                       </div>
                     </li>
@@ -271,7 +271,7 @@ const CSR = () => {
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                       </svg>
                       <div>
-                        <p className="font-medium">50 Scholarships Awarded</p>
+                        <p className="font-medium">10+ Scholarships Awarded</p>
                         <p className="text-sm text-neutral-600">To students pursuing technology and sustainable development degrees</p>
                       </div>
                     </li>

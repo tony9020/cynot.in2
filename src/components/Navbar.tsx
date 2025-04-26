@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X, ChevronDown, Globe } from 'lucide-react';
+import { Menu, X, ChevronDown, ArrowRight, Monitor, Home, MapPin } from 'lucide-react';
 import Logo from './Logo';
 
 interface NavbarProps {
@@ -56,7 +56,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
         {/* Logo */}
         <Link to="/" className="flex items-center z-10" onClick={closeMenus}>
           <Logo color={scrolled || isOpen ? 'dark' : 'light'} />
-          <span className={`ml-2 text-lg font-bold ${scrolled || isOpen ? "text-black" : "text-white"}`}>
+          <span className={`ml-2 text-2xl font-bold ${scrolled || isOpen ? "text-black" : "text-white"}`}>
             CYNOT
           </span>
         </Link>
@@ -88,8 +88,21 @@ const Navbar = ({ scrolled }: NavbarProps) => {
           >
             About
           </NavLink>
-          
-          {/* Services Dropdown */}
+
+          <NavLink 
+            to="/services"
+            className={({ isActive }) => `
+              text-sm font-medium transition-colors duration-200
+              ${scrolled 
+                ? isActive ? 'text-primary-600' : 'text-neutral-700 hover:text-primary-600'
+                : isActive ? 'text-primary-300' : 'text-white hover:text-primary-300'
+              }
+            `}
+          >
+            Services
+          </NavLink>
+
+          {/* Businesses Dropdown */}
           <div className="relative group">
             <button 
               className={`
@@ -102,7 +115,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
               onMouseEnter={() => setServicesOpen(true)}
               onClick={toggleServices}
             >
-              Services
+              Businesses
               <ChevronDown className="ml-1 h-4 w-4" />
             </button>
             
@@ -119,31 +132,42 @@ const Navbar = ({ scrolled }: NavbarProps) => {
                 <NavLink
                   to="/technologies"
                   className={({ isActive }) => `
-                    block px-4 py-2 text-sm
+                    flex items-center px-4 py-2 text-sm
                     ${isActive ? 'text-primary-600 bg-primary-50' : 'text-neutral-700 hover:bg-neutral-100 hover:text-primary-600'}
                   `}
                   onClick={closeMenus}
                 >
+                  <div className="w-4 h-4 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mr-2">
+                    <Monitor size={32} />
+                  </div>
                   Technologies
                 </NavLink>
+
                 <NavLink
                   to="/homes"
                   className={({ isActive }) => `
-                    block px-4 py-2 text-sm
+                    flex items-center px-4 py-2 text-sm
                     ${isActive ? 'text-primary-600 bg-primary-50' : 'text-neutral-700 hover:bg-neutral-100 hover:text-primary-600'}
                   `}
                   onClick={closeMenus}
                 >
+                <div className="w-4 h-4 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mr-2">
+                  <Home size={32} />
+                </div>
                   Homes
                 </NavLink>
+
                 <NavLink
                   to="/tours"
                   className={({ isActive }) => `
-                    block px-4 py-2 text-sm
+                    flex items-center px-4 py-2 text-sm
                     ${isActive ? 'text-primary-600 bg-primary-50' : 'text-neutral-700 hover:bg-neutral-100 hover:text-primary-600'}
                   `}
                   onClick={closeMenus}
                 >
+                <div className="w-4 h-4 bg-primary-100 rounded-full flex items-center justify-center text-primary-600 mr-2">
+                  <MapPin size={32} />
+                </div>
                   Tours
                 </NavLink>
               </div>
@@ -194,7 +218,7 @@ const Navbar = ({ scrolled }: NavbarProps) => {
         <Link
           to="/contact"
           className={`
-            hidden lg:flex btn ${scrolled ? 'btn-primary' : 'bg-white text-primary-600 hover:bg-primary-50'}
+            hidden lg:flex btn font-bold ${scrolled ? 'btn-primary' : 'bg-white text-primary-700 hover:bg-primary-50'}
           `}
           onClick={closeMenus}
         >
@@ -246,13 +270,24 @@ const Navbar = ({ scrolled }: NavbarProps) => {
                 About
               </NavLink>
               
+              <NavLink
+                to="/services"
+                className={({ isActive }) => `
+                  block text-lg font-medium p-3 rounded-md
+                  ${isActive ? 'text-primary-600 bg-primary-50' : 'text-neutral-800 hover:bg-neutral-100'}
+                `}
+                onClick={closeMenus}
+              >
+                Services
+              </NavLink>
+              
               {/* Services Accordion */}
               <div>
                 <button
                   className="flex justify-between items-center w-full text-lg font-medium p-3 rounded-md text-neutral-800 hover:bg-neutral-100"
                   onClick={toggleServices}
                 >
-                  Services
+                  Businesses
                   <ChevronDown className={`h-5 w-5 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
                 </button>
                 

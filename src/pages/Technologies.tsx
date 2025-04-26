@@ -40,7 +40,7 @@ const Technologies = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Cynot Technologies</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Cynot Technologies</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Innovative Technology Solutions</h1>
             <p className="text-xl text-neutral-300">
               Custom software development, cloud solutions, and digital transformation services that drive business growth and innovation.
@@ -343,7 +343,7 @@ const Technologies = () => {
               className="group"
             />
             <Card
-              image="https://images.pexels.com/photos/7148384/pexels-photo-7148384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              image="https://images.pexels.com/photos/6473730/pexels-photo-6473730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               title="Healthcare Mobile App"
               content="Patient engagement app for a leading healthcare provider, improving patient satisfaction scores by 25%."
               hoverEffect={true}

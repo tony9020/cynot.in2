@@ -11,10 +11,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Column 1 - About */}
           <div>
+          <div className="flex items-center"> 
             <Logo color="light" size="lg" />
-            <span className={`mt-4 pt-4 text-lg font-bold text-white`}>
-          CYNOT
-          </span>
+            <span className={`ml-2 text-3xl font-bold text-white`}>
+            CYNOT
+            </span>
+          </div>
             <p className="mt-4 text-neutral-300 text-sm">
               Empowering innovations, crafting journeys, and building premium living spaces with a commitment to excellence and customer satisfaction.
             </p>

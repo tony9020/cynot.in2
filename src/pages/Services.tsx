@@ -36,7 +36,7 @@ const Services = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Our Services</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Our Services</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Tailored Solutions for Diverse Needs</h1>
             <p className="text-xl text-neutral-300">
               Explore our comprehensive range of services across our three specialized divisions, each designed to deliver exceptional value and experiences.

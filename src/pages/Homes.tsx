@@ -40,7 +40,7 @@ const Homes = () => {
         ></div>
         <div className="container relative z-10">
           <div className="max-w-3xl">
-            <span className="text-primary-400 font-medium text-sm uppercase tracking-wider">Cynot Homes</span>
+            <span className="text-primary-400 font-bold text-md uppercase tracking-wider">Cynot Homes</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mt-2 mb-6">Premium Living Spaces</h1>
             <p className="text-xl text-neutral-300">
               Luxurious and sustainable residential properties designed for modern living, comfort, and style.

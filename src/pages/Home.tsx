@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 
+import  { motion } from 'framer-motion';
 import Hero from '../components/Hero';
 import ServicesSection from '../components/ServicesSection';
 import StatsBanner from '../components/StatsBanner';
@@ -49,6 +50,37 @@ const Home = () => {
         }}
         backgroundImage="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1920"
       />
+      <div className="absolute bottom-10 left-0 right-0 flex justify-center z-20">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 1,
+              delay: 2,
+              repeat: 7,
+              repeatType: 'reverse',
+            }}
+          >
+            <a className="text-primary-100  hover:text-primary-600 transition-colors">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="animate-bounce"
+              >
+                <path
+                  d="M12 5V19M12 19L19 12M12 19L5 12"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </a>
+          </motion.div>
+        </div>
 
       {/* About Section */}
       <section 
@@ -65,7 +97,7 @@ const Home = () => {
               />
             </div>
             <div>
-              <span className="text-primary-600 font-semibold uppercase tracking-wider text-sm">About Us</span>
+              <span className="text-primary-400 font-bold text-md uppercase tracking-wider">About Us</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">Our Expertise, Your Experience</h2>
               <p className="text-neutral-700 mb-6">
                 Cynot is a dynamic conglomerate operating across three specialized sectors: cutting-edge technology solutions, premium residential developments, and immersive travel experiences.
